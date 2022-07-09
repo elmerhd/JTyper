@@ -32,8 +32,8 @@ public class JTyperKeyMaster {
             put('-',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_MINUS, false));
             put('.',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_PERIOD, false));
             put('/',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_SLASH, false));
-            for(int i=(int)'0';i<=(int)'9';i++){
-                put((char)i,new JTyperKey(keyStrokeMap, robot, i, false));
+            for(int i = (int) '0'; i <= (int) '9'; i++){
+                put((char)i, new JTyperKey(keyStrokeMap, robot, i, false));
             }
             put(':',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_SEMICOLON, true));
             put(';',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_SEMICOLON, false));
@@ -42,8 +42,8 @@ public class JTyperKeyMaster {
             put('>',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_PERIOD, true));
             put('?',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_SLASH, true));
             put('@',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_2, true));
-            for(int i=(int)'A';i<=(int)'Z';i++){
-                put((char)i,new JTyperKey(keyStrokeMap, robot, i, true));
+            for(int i = (int) 'A'; i <= (int) 'Z'; i++){
+                put((char)i, new JTyperKey(keyStrokeMap, robot, i, true));
             }
             put('[',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_OPEN_BRACKET, false));
             put('\\',new JTyperKey(keyStrokeMap, robot,KeyEvent.VK_BACK_SLASH, false));
@@ -51,8 +51,8 @@ public class JTyperKeyMaster {
             put('^',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_6, true));
             put('_',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_MINUS, true));
             put('`',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_BACK_QUOTE, false));
-            for(int i=(int)'A';i<=(int)'Z';i++){
-                put((char)(i+((int)'a'-(int)'A')),new JTyperKey(keyStrokeMap, robot, i, false));
+            for(int i = (int) 'A'; i <= (int) 'Z'; i++){
+                put((char)(i+((int)'a' - ( int) 'A')), new JTyperKey(keyStrokeMap, robot, i, false));
             }
             put('{',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_OPEN_BRACKET, true));
             put('|',new JTyperKey(keyStrokeMap, robot, KeyEvent.VK_BACK_SLASH, true));
