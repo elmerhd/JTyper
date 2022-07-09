@@ -40,6 +40,4 @@ public class JTyper {
         JTyperHelper.launchApp();       
     }
     
-    
-    
 }
